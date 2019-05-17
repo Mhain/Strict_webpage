@@ -1,0 +1,2 @@
+[0517/121054.820:ERROR:http_transport_win.cc(273)] WinHttpSendRequest: The server name or address could not be resolved (0x2ee7)
+[0130/000146.682:ERROR:crash_report_database_win.cc(428)] unexpected header

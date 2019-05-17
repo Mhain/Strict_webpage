@@ -1,0 +1,266 @@
+/*
+	Author : Faisal Hamid Hemel
+*/
+
+/************************
+	1. Global Typography
+	2. Header Section 
+	3. Banner Section
+	4. Intro Section
+	5. Features Section
+	6. Portfolio Section 
+	7. Contact Section
+	8. Footer Section	
+*************************/
+
+/*================
+ Global Typography 
+=================*/
+/* Google Font Lato */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+	}
+/* Header Section */
+header{
+
+	background-color: #f9f9f9;
+	padding :20px 0px;
+}
+/* Banner section */
+.banner{
+	background: url(../img/banner.png) no-repeat;
+	background-size: cover;
+	padding: 100px 00px 50px;
+	}
+.banner h1{
+	    font-size: 76px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.banner p{
+	    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.underline{
+    border: 1px solid #15a4fa;
+    width: 40%;
+    margin: 15px auto 15px;
+
+}
+.btn-primary{
+	    border: 1px solid #15a4fa;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 18px;
+    display: block;
+    margin: 65px auto 150px;
+    -webkit-transition : all 0.4s ease-in-out;
+    -moz-transition : all 0.4s ease-in-out;
+    -o-transition : all 0.4s ease-in-out;
+    transition : all 0.4s ease-in-out;
+}
+.btn-primary:hover{
+	cursor: pointer;
+	background:#15a4fa;
+}
+.fa-angle-down{
+	width: 100%;
+    text-align: center;
+    color: #fff;
+}
+/*intro section */
+.Intro{    
+	background-color: #f6f9f9;
+    margin: 50px auto 30px;	
+}
+.Intro h2{
+    color: #2d3950;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.Intro p{
+	    font-size: 18px;
+    text-align: center;
+    padding: 20px 50px;
+    color: #999999;
+    line-height: 35px;
+}
+
+/*---features section----*/
+
+.Features{
+	background-color: #f6f9f9;
+	margin: 50px auto 375px;
+}
+.Features ul {
+	list-style-type: none;
+}
+.optimized{
+	    width: 25%;
+    float: left;
+    padding: 0px 30px;
+}
+.optimized img{
+	    margin: 30px 80px;
+}
+.optimized h3{
+	text-align: center;
+	font-weight: 400;
+	padding: 10px;
+}
+.optimized p{
+text-align: center;
+color: #2d3950;
+}
+.sent{
+	    width: 25%;
+    float: left;
+    padding: 0px 30px;
+}
+.sent img{
+	    margin: 30px 80px;
+}
+.sent h4{
+	font-weight: 400;
+	text-align: center;
+ 	padding: 10px;
+}
+.sent p{
+	text-align: center;
+	color: #2d3950;
+}
+.font{
+	    width: 25%;
+    float: left;
+    padding: 0px 30px;
+}
+.font img{
+	    margin: 30px 80px;
+}
+.font h5{
+	text-align: center;
+	font-weight: 400;
+	padding: 10px;
+}
+.font p{
+	text-align: center;
+	color: #2d3950;
+}
+/*--Portfolio Section--*/
+.Portfolio {
+	background color: #f6f9f9;
+
+}
+.Portfolio ul{
+
+	    list-style-type: none;
+}
+.Portfolio h6{
+    color: #2d3950;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+.Portfolio p{
+
+    font-size: 18px;
+    text-align: center;
+    padding: 12px 50px;
+    color: #999999;
+    line-height: 35px;
+}
+
+.pic0 img{
+    display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 23px;
+    padding: 0px 14px 0px 46px;
+}
+.image:hover.fa-search-plus{
+
+	  opacity: 1;
+	    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: red;
+}
+.pic1 img{
+	display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 23px;
+    padding: 0px 15px;
+}
+.pic2 img{
+	display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 30px;
+    padding: 0px 16px;
+}
+.pic3 img{
+
+    display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 23px;
+    padding: 0px 14px 0px 46px;
+}
+.pic4 img{
+	
+	display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 23px;
+    padding: 0px 15px;
+
+}
+
+.pic5 img{
+	display: block;
+    width: 28%;
+    float: left;
+    margin: 0px 0px 30px;
+    padding: 0px 16px;
+}
+
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-user:hover {
+  color: #eee;
+}
